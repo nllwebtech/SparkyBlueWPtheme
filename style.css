@@ -1,0 +1,82 @@
+h1{
+	font: bold 16px gray;
+}
+
+
+h2{
+	font: 14px olive;
+}
+
+body{
+	background-image: url("harrisburgpa_by_kalika31.jpg") ;
+	background-size: cover;
+	color: white;
+	border:0;
+} 
+
+.logo{
+ width:125px;
+ height: 125px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+	
+
+nav ul{
+	
+	color: white;
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+	list-style-image: none;
+	
+}
+
+#nav ul li {display: inline; }
+#nav li {display: inline; padding: 5px 20px 5px 20px}
+#nav a {text-decoration:none; color: blue; }
+#nav a:hover {color: green; }
+#nav ul {margin: 0; padding: 5px; 
+	list-style-type: none; list-style-image: none; }
+#nav li {display: inline; }
+#nav ul li a {text-decoration:none;  margin: 4px;
+	padding: 5px 20px 5px 20px; color: white;
+	background: gray;}
+#nav ul li a:hover {color: green;
+	background: white; }
+
+#content{
+	background: rgba(25, 25, 25, .8); padding: 35px;
+
+}
+
+#maintitle{
+font: bold 16px gray;
+}
+
+#sitetitle{
+	font-size: 35px;
+	color: tan;
+	text-align: center;
+}
+
+#tagline{
+	font-size: 18px;
+	color: grey;
+	text-align: center;
+}
+#search {
+    position:relative;
+    float: right;
+    margin: 0 10px 20px 0;
+}
+#searchform input {
+    color:#000;
+}
